@@ -38,6 +38,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew cask install pdftotext or brew install pdftotext
 ```
 
+
 2. Install `invoice2data` using pip
 
 ```
