@@ -30,6 +30,15 @@ Go from PDF files to this:
 1. Install pdftotext
 
 If possible get the latest xpdf/poppler-utils version. It's included with OSX Homebrew, Debian Sid and Ubuntu 16.04. Without it, `pdftotext` won't parse tables in PDF correctly.
+```
+To Install pdftotext on Mac. 
+1.Press Command+Space and type Terminal and press enter/return key.
+2.Run in Terminal app:
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
+and press enter/return key. Wait for the command to finish.
+3.Run:
+brew cask install pdftotext
+```
 
 2. Install `invoice2data` using pip
 
